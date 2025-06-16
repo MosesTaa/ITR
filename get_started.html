@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Step-by-Step Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url("d08fa2dd-0b42-4c96-b946-3171682ec08b.png") no-repeat center center fixed;
+            background-size: cover;
+            padding: 2em;
+            margin: 0;
+            text-align: center;
+            color: #000;
+        }
+
+        .header-with-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1em;
+            margin-bottom: 1.5em;
+        }
+
+        .header-with-logo img {
+            width: 60px;
+            height: auto;
+        }
+
+        .content-box {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 2em;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        h2, h3 {
+            margin: 0;
+            color: #333;
+            text-align: center;
+        }
+
+        ol {
+            padding-left: 1.2em;
+        }
+
+        li {
+            margin-bottom: 0.8em;
+            line-height: 1.6;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 2em;
+        }
+
+        iframe {
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
+
+        .yt-link {
+            text-align: center;
+            margin-top: 1em;
+            font-size: 0.95em;
+        }
+
+        a {
+            color: #007ACC;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .proceed-button {
+            display: block;
+            margin: 2em auto 0;
+            background-color: #007ACC;
+            color: white;
+            padding: 1em 2em;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .proceed-button:hover {
+            background-color: #005a9e;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Title with logo beside -->
+    <div class="header-with-logo">
+        <h2>📋 Filing Your Returns: Step-by-Step Guide</h2>
+        <a href="https://itax.kra.go.ke/KRA-Portal" target="_blank">
+            <img src="logokra.png" alt="KRA Logo">
+        </a>
+    </div>
+
+    <div class="content-box">
+        <h3>✅ Follow These Steps on the KRA Portal</h3>
+        <ol>
+            <li>Once logged in to the iTax portal, navigate to the top menu.</li>
+            <li>Hover over <strong>Returns</strong> and click on <strong>ITR for Employment Income Only</strong>.</li>
+            <li>Set the return period starting from <strong>1st January</strong> of the previous year.</li>
+            <li>When prompted, select <strong>Yes</strong> and click <strong>Next</strong> to proceed.</li>
+        </ol>
+
+        <h3>🎥 Watch This Quick Guide</h3>
+        <p>This clip shows you exactly how to perform the steps above:</p>
+
+        <div class="video-container">
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/Wv2s2LUbTHk?start=55&end=77&rel=0"
+                title="KRA Filing Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="yt-link">
+            Or watch directly on YouTube:  
+            <a href="https://youtu.be/Wv2s2LUbTHk?start=55&end=77" target="_blank">
+                https://youtu.be/Wv2s2LUbTHk?start=55&end=77
+            </a>
+        </div>
+
+        <!-- Proceed Button -->
+        <a href="index.html" class="proceed-button">✅ Done! Go to Basic Information</a>
+    </div>
+
+</body>
+</html>

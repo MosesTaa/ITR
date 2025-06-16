@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url("d08fa2dd-0b42-4c96-b946-3171682ec08b.png") no-repeat center center fixed;
+            background-size: cover;
+            padding: 2em;
+            margin: 0;
+            text-align: center;
+            color: #000;
+        }
+
+        .header-with-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1em;
+            margin-bottom: 1.5em;
+        }
+
+        .header-with-logo img {
+            width: 60px;
+            height: auto;
+        }
+
+        .content-box {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 2em;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        h2, h3 {
+            margin: 0;
+            color: #333;
+        }
+
+        ol {
+            padding-left: 1.2em;
+        }
+
+        li {
+            margin-bottom: 0.8em;
+            line-height: 1.6;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 2em;
+        }
+
+        .yt-link {
+            text-align: center;
+            margin-top: 1em;
+            font-size: 0.95em;
+        }
+
+        a {
+            color: #007ACC;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .proceed-button {
+            display: block;
+            margin: 2em auto 0;
+            background-color: #007ACC;
+            color: white;
+            padding: 1em 2em;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .proceed-button:hover {
+            background-color: #005a9e;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Title with logo beside -->
+    <div class="header-with-logo">
+        <h2>🔐 How to Sign In to the KRA Portal</h2>
+        <a href="https://itax.kra.go.ke/KRA-Portal" target="_blank">
+            <img src="logokra.png" alt="KRA Logo">
+        </a>
+    </div>
+
+    <div class="content-box">
+        <ol>
+            <li>Visit the <a href="https://itax.kra.go.ke/KRA-Portal" target="_blank">KRA iTax login page</a>.</li>
+            <li>In the first field labeled <strong>Enter Pin/User ID</strong>, enter your KRA PIN.</li>
+            <li>In the second field, enter your password.</li>
+            <li>Below the password field, enter the <strong>security stamp</strong> (e.g., <em>5 + 3</em>) and type the correct answer.</li>
+            <li>Click the <strong>Login</strong> button.</li>
+        </ol>
+
+        <h3>🎥 Forgot your password?</h3>
+        <p>Watch this video guide to learn how to reset or recover it:</p>
+
+        <div class="video-container">
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/QnFs7bGn6KU"
+                title="How to Reset KRA Password"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="yt-link">
+            Or open directly:  
+            <a href="https://youtu.be/QnFs7bGn6KU?si=AUu8BkYXvuG3Sg85" target="_blank">
+                https://youtu.be/QnFs7bGn6KU?si=AUu8BkYXvuG3Sg85
+            </a>
+        </div>
+
+        <!-- Proceed Button -->
+        <a href="index.html#get-started" class="proceed-button">➡️ Ready to get started!</a>
+    </div>
+
+</body>
+</html>
