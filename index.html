@@ -128,16 +128,5 @@
     </p>
   </footer>
 
-  <script>
-    // Optional: Resume logic
-    const lastStepURL = localStorage.getItem("currentStepURL");
-    if (lastStepURL && confirm("Do you want to resume where you left off?")) {
-      window.location.href = lastStepURL;
-    }
-
-    localStorage.setItem("currentStep", "0");
-    localStorage.setItem("currentStepURL", window.location.pathname);
-  </script>
-
 </body>
-</html>
+      </html>
